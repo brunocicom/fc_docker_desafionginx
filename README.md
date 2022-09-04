@@ -2,35 +2,17 @@
 
 Desafio do curso Full Cycle 3.0
 
-# Imagem no DockerHub
-
-https://hub.docker.com/r/brunocicom/fc-docker-desafionginx
-
 # Imagem Full Cycle Rocks
 
-Executar docker de produção
+Execução do projeto
 
 ``` bash
-
+docker compose -d
 ```
+
+[Link](http://localhost:8080/) de acesso.
 
 # Anotações de trabalho
 
-WORKDIR: go
+[npm install production] (https://docs.npmjs.com/cli/v8/commands/npm-install)
 
-Container de desenvolvimento
-``` bash
-docker run --rm -it -v $(pwd)/:/go/src golang:1.13.0 bash
-```
-
-Run
-``` bash
-go run .
-```
-
-Build
-``` bash
-env GOOS=linux GOARCH=386 go build .
-```
-
-Image golang: https://hub.docker.com/_/golang
