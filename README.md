@@ -2,8 +2,6 @@
 
 Desafio do curso Full Cycle 3.0
 
-# Imagem Full Cycle Rocks
-
 Execução do projeto
 
 ``` bash
