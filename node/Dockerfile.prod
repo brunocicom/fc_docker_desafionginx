@@ -12,7 +12,7 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 # Final stage
 
-FROM node as final
+FROM node:15.13.0-alpine3.13 as final
 
 # Set node environment to production
 ENV NODE_ENV production
